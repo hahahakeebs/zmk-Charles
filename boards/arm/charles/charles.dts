@@ -1,22 +1,14 @@
+/*
+ * Copyright (c) 2023 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+ 
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&layout_ortho_4x12_all1u {
-	transform = <&ortho_transform>;
-};
-
-&layout_ortho_4x12_1x2u {
-	transform = <&mit_transform>;
-};
-
-&layout_ortho_4x12_2x2u {
-	transform = <&dual_2u_transform>;
-};
-
 / {
-	model = "blank_slate";
-	compatible = "lpgalaxy,blank_slate";
 
 	chosen {
 		zephyr,code-partition = &code_partition;
