@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
- 
+
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
@@ -19,7 +19,7 @@
 	};
 
 	aliases {
-		led0 = &blue_led;
+		led0 = &bloo_led;
 	};
 
 
