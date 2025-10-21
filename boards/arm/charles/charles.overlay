@@ -13,7 +13,7 @@
 		zephyr,code-partition = &code_partition;
 		zephyr,sram = &sram0;
 		zephyr,flash = &flash0;
-		zmk,kscan = &kscan;
+		zmk,kscan = &kscan0;
 		zmk,battery = &vbatt;
         zmk,physical-layout = &split_bar_layout;
 	};
@@ -31,7 +31,7 @@
         >;
     };
 
-    kscan: kscan {
+    kscan0: kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
     wakeup-source;
     debounce-press-ms = <1>;
