@@ -1,0 +1,6 @@
+# Charles board configuration
+
+config BOARD_CHARLES
+	bool "hahahakeebs Charles"
+	depends on SOC_NRF52840_QIAA
+
