@@ -91,7 +91,7 @@
 			>;
 	};
 	
-	kscan: kscan {
+	kscan: kscan0 {
 		compatible = "zmk,kscan-gpio-matrix";
 		wakeup-source;
 		debounce-press-ms = <1>;
